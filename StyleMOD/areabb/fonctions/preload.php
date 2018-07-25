@@ -82,6 +82,10 @@ function load_function($fichier='')
 function verification_acces_page($id_squelette)
 {
 	global $db,$userdata,$page_title;
+  if (!$id_squelette)
+  {
+    message_die(GENERAL_ERROR, "Impossible d'obtenir les infos de la table des salles");
+  }
 	$sql = 'SELECT titre, groupes 
 			FROM '.AREABB_SQUELETTE.' 
 			WHERE id_squelette='.$id_squelette;

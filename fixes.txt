@@ -1,0 +1,3 @@
+- Fix get_magic_quotes
+- Fix set_magic_quotes
+- Fix areabb with empty skeleton
