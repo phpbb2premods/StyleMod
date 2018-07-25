@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="ISO-8859-1"?>
+<plugin nom="liste_jeux_ajax" version="1.0">
+  <label>Liste des Jeux</label>
+  <auteur>Saint-Pere</auteur>
+  <page>1</page>
+  <description>Affichage des jeux façon YY avec navigation via fonctions Ajax.</description>
+</plugin>

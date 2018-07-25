@@ -1,0 +1,27 @@
+/**
+*
+* @package quick_title_edition_mod
+* @version $Id: qte_stylesheet.css,v 1.0.1 2007/12/02 11:02 ABDev Exp $
+* @copyright (c) 2007 ABDev - http://www.oxygen-powered.net/
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+*
+*/
+
+/* removes the borders on images */
+html body img,
+html body a img,
+html body .forumline img {
+	border: none;
+}
+
+/* css class for "Solved" attribute */
+.QTE_Solved {
+	color: #006600;
+	font-weight: bold;
+}
+
+/* css class for "Cancelled" attribute */
+.QTE_Cancelled {
+	color: #cc0000;
+	font-weight: bold;
+}
